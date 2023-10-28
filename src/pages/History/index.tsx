@@ -22,7 +22,7 @@ export const History = () => {
               <td>20 minutes</td>
               <td>2 months ago</td>
               <td>
-                <Status statusColor="green">Completed</Status>
+                <Status statusColor="yellow">In progress</Status>
               </td>
             </tr>
             <tr>
@@ -46,7 +46,7 @@ export const History = () => {
               <td>20 minutes</td>
               <td>2 months ago</td>
               <td>
-                <Status statusColor="green">Completed</Status>
+                <Status statusColor="red">interrupted</Status>
               </td>
             </tr>
             <tr>
@@ -54,7 +54,7 @@ export const History = () => {
               <td>20 minutes</td>
               <td>2 months ago</td>
               <td>
-                <Status statusColor="green">Completed</Status>
+                <Status statusColor="red">interrupted</Status>
               </td>
             </tr>
             <tr>
