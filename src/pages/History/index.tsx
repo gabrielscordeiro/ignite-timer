@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from './styles.ts'
+import { HistoryContainer, HistoryList, Status } from './styles.ts'
 
 export const History = () => {
   return (
@@ -21,37 +21,49 @@ export const History = () => {
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 months ago</td>
-              <td>Completed</td>
+              <td>
+                <Status statusColor="green">Completed</Status>
+              </td>
             </tr>
           </tbody>
         </table>
