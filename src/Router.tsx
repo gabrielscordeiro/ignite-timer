@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home.tsx'
-import { History } from './pages/History.tsx'
+import { Home } from './pages/Home'
+import { History } from './pages/History'
 import { DefaultLayout } from './layouts/DefaultLayout'
 
 export const Router = () => {
