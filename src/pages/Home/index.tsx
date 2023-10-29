@@ -11,13 +11,23 @@ import {
 
 import { useForm } from 'react-hook-form'
 
+import { zodResolver } from '@hookform/resolvers/zod'
+import * as zod from 'zod'
+
+const newCycleFormValidationSchema = zod.object({
+  task: zod.string().min(1, 'Enter the task'),
+  minutesAmount: zod.number().min(5).max(60),
+})
+
 export const Home = () => {
-  const { register, handleSubmit, watch } = useForm()
+  const { register, handleSubmit, watch } = useForm({
+    resolver: zodResolver(newCycleFormValidationSchema),
+  })
 
   const task = watch('task')
   const isSubmitDisabled = !task
 
-  const handleCreateNewCycle = (data) => {}
+  const handleCreateNewCycle = (data: any) => {}
 
   return (
     <HomeContainer>
